@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'JCPullToRefreshView', :exclusive => true do
+  pod "JCPullToRefreshView", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "JCPullToRefreshView", :path => "../"
+
+  
+end
