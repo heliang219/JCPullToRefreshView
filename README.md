@@ -15,7 +15,9 @@ pod "JCPullToRefreshView"
 
 ## Usage
 
+``` objc
 #import "UIViewController+JCAdditionsPage.h"
+```
 
 Refer to demo
 
