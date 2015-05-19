@@ -5,25 +5,24 @@
 [![License](https://img.shields.io/cocoapods/l/JCPullToRefreshView.svg?style=flat)](http://cocoapods.org/pods/JCPullToRefreshView)
 [![Platform](https://img.shields.io/cocoapods/p/JCPullToRefreshView.svg?style=flat)](http://cocoapods.org/pods/JCPullToRefreshView)
 
-## Usage
+Supports pull-to-refresh and pull-to-loadmore.
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+<img width="320" src="./ScreenShot.gif"> 
 
 ## Installation
 
-JCPullToRefreshView is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
 pod "JCPullToRefreshView"
-```
+
+## Usage
+
+#import "UIViewController+JCAdditionsPage.h"
+
+Refer to demo
 
 ## Author
 
-lijingcheng, bj_lijingcheng@163.com
+[李京城](http://lijingcheng.github.io)
 
 ## License
 
-JCPullToRefreshView is available under the MIT license. See the LICENSE file for more info.
+MIT

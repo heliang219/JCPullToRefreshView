@@ -2,10 +2,10 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'JCPullToRefreshView', :exclusive => true do
   pod "JCPullToRefreshView", :path => "../"
+  pod "AFNetworking", "2.5.3"
+  pod "SVProgressHUD", "1.1.3"
 end
 
 target 'Tests', :exclusive => true do
   pod "JCPullToRefreshView", :path => "../"
-
-  
 end

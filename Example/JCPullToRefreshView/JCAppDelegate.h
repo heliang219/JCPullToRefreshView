@@ -2,7 +2,7 @@
 //  JCAppDelegate.h
 //  JCPullToRefreshView
 //
-//  Created by CocoaPods on 05/18/2015.
+//  Created by lijingcheng on 05/18/2015.
 //  Copyright (c) 2014 lijingcheng. All rights reserved.
 //
 
