@@ -19,6 +19,12 @@ pod "JCPullToRefreshView"
 #import "UIViewController+JCAdditionsPage.h"
 ```
 
+Only need to add a line of code in your UIViewController.
+
+``` objc
+[self enabledPullToRefreshAndLoadMore:self.collectionView];
+```
+
 Refer to demo
 
 ## Author
