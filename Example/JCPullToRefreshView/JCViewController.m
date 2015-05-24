@@ -25,6 +25,9 @@ static NSString * const reuseIdentifier = @"cellId";
     
     self.edgesForExtendedLayout = UIRectEdgeNone;
     
+    self.tableView.rowHeight = 50.0f;
+    self.tableView.tableFooterView = [UIView new];
+    
     [self enabledPullToRefreshAndLoadMore:self.tableView];
 
     self.datas = [[NSMutableArray alloc] initWithCapacity:10];
@@ -35,7 +38,7 @@ static NSString * const reuseIdentifier = @"cellId";
 
 - (void)loadDatas
 {
-    [self requestWithURI:@"j" params:@{@"q":@"apple", @"pn": @20} completion:^(AFHTTPRequestOperation *operation, NSError *error) {
+    [self requestWithURI:@"j" params:@{@"q":@"iPhone", @"pn": @20} completion:^(AFHTTPRequestOperation *operation, NSError *error) {
         if(self.currentPage == 1) {
             [self.datas removeAllObjects];
         }
