@@ -92,7 +92,7 @@ static const void *hasNextPageKey;
 
 - (void)setCurrentPage:(NSInteger)currentPage
 {
-    objc_setAssociatedObject(self, &currentPageKey, [NSNumber numberWithInteger:currentPage], OBJC_ASSOCIATION_ASSIGN);
+    objc_setAssociatedObject(self, &currentPageKey, [NSNumber numberWithInteger:currentPage], OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
 - (BOOL)hasNextPage
@@ -102,7 +102,7 @@ static const void *hasNextPageKey;
 
 - (void)setHasNextPage:(BOOL)hasNextPage
 {
-    objc_setAssociatedObject(self, &hasNextPageKey, [NSNumber numberWithBool:hasNextPage], OBJC_ASSOCIATION_ASSIGN);
+    objc_setAssociatedObject(self, &hasNextPageKey, [NSNumber numberWithBool:hasNextPage], OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
 @end
